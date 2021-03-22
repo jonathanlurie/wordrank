@@ -24,3 +24,13 @@ The output is in the file [ranking.json](ranking.json) and contains the total co
 But in the end, these unwanted words are way less than 1% of the total so it's probably acceptable.
 
 **Note:** I know this contains many biases, this is only an experiment.
+
+# Results
+- about 1 million words in the sample
+- about 44000 unique words
+- top word is *"the"* with 75864 occurences
+- second is *"of"* with already half of that! (34004 occurences)
+- most of the first words are preopositions, pronouns and things like that
+- the **first** word (hishest ranking) to actually carry a meaning is **first** (3106 occurences, 25th position)
+- the words on rank 3000 (and you *must* all the ones with a higher ranking) is *"citizen"* with only 41 occurence, so a frenquency of about 0.0041%
+- *"televangelist"* is used only once in a million so maybe don't make it your job (or maybe do, I don't know actually)
